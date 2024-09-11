@@ -81,7 +81,7 @@ export default function Home() {
                           borderRadius: "68% 32% 100% 0% / 0% 75% 25% 100%"
                         }}
                       >
-                        <Image
+                        <img
                           src="/img/header-img.png"
                           className="img-fluid w-100"
                           width={500}
