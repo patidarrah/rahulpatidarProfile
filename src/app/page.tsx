@@ -82,7 +82,7 @@ export default function Home() {
                         }}
                       >
                         <img
-                          src="/img/header-img.png"
+                          src="img/header-img.png"
                           className="img-fluid w-100"
                           width={500}
                           height={500}
