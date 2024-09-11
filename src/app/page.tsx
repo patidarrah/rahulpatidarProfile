@@ -148,7 +148,7 @@ export default function Home() {
                         </Link>
                         <Link
                           className="btn btn-primary btn-sm-square me-0"
-                          href="#"
+                          href="https://in.linkedin.com/in/rahul-patidar-7a438a19a?original_referer=https%3A%2F%2Fwww.google.com%2F"
                         >
                           <i className="fab fa-linkedin-in text-white" />
                         </Link>
@@ -181,17 +181,17 @@ export default function Home() {
               <div className="col-12 col-lg-9">
                 <div className="about-content h-100 pt-6 ps-6 pb-6">
                   <div className="row g-5">
-                    <div className="col-xl-5">
+                    {/* <div className="col-xl-5">
                       <div
                         className="about-img bg-light p-4 wow fadeInUp"
                         data-wow-delay="0.1s"
-                      >
-                        <img
+                      > */}
+                    {/* <img
                           src="img/about.jpg"
                           className="img-fluid w-100"
                           alt="Image"
-                        />
-                        <div className="sosial-icon">
+                        /> */}
+                    {/* <div className="sosial-icon">
                           <Link
                             className="btn btn-primary btn-sm-square mb-3"
                             href="#"
@@ -212,13 +212,13 @@ export default function Home() {
                           </Link>
                           <Link
                             className="btn btn-primary btn-sm-square mb-0"
-                            href="#"
+                            href="https://in.linkedin.com/in/rahul-patidar-7a438a19a?original_referer=https%3A%2F%2Fwww.google.com%2F"
                           >
                             <i className="fab fa-linkedin-in text-white" />
                           </Link>
-                        </div>
-                      </div>
-                    </div>
+                        </div> */}
+                    {/* </div>
+                    </div> */}
                     <div
                       className="col-xl-7 wow fadeInUp"
                       data-wow-delay="0.3s"
