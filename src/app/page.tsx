@@ -789,7 +789,7 @@ export default function Home() {
               <div className="col-lg-9">
                 <div className="service-content h-100 pt-6 ps-6 pb-6">
                   <div className="row g-4">
-                    <div className="col-12">
+                    {/* <div className="col-12">
                       <div
                         className="service-item p-4 wow fadeInUp"
                         data-wow-delay="0.1s"
@@ -822,7 +822,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <div
                         className="service-item p-4 wow fadeInUp"
@@ -834,24 +834,31 @@ export default function Home() {
                           </div>
                           <div className="col-xl-3">
                             <Link href="#" className="h4 mb-0">
-                              Web Developm
+                              Web Development
                             </Link>
                           </div>
                           <div className="col-xl-4">
                             <p className="mb-0">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Reiciendis laboriosam repudiandae
+                              Web development involves creating and maintaining
+                              websites, ensuring they are visually appealing,
+                              functional, and optimized for performance. It
+                              includes front-end development for user
+                              interfaces, back-end development for server-side
+                              logic, and database management. Effective web
+                              development focuses on responsiveness,
+                              accessibility, and seamless user experiences
+                              across devices.
                             </p>
                           </div>
                           <div className="col-xl-3">
                             <p>
-                              <i className="fa fa-check me-2" /> UI/UX Design
+                              <i className="fa fa-check me-2" /> Next Js
                             </p>
                             <p>
-                              <i className="fa fa-check me-2" /> Research
+                              <i className="fa fa-check me-2" /> React Js
                             </p>
-                            <p className="mb-0">
-                              <i className="fa fa-check me-2" /> Mobile App
+                            <p>
+                              <i className="fa fa-check me-2" /> Angular Js
                             </p>
                           </div>
                         </div>
@@ -868,24 +875,26 @@ export default function Home() {
                           </div>
                           <div className="col-xl-3">
                             <Link href="#" className="h4 mb-0">
-                              Mobile Application
+                              Backend Application
                             </Link>
                           </div>
                           <div className="col-xl-4">
                             <p className="mb-0">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Reiciendis laboriosam repudiandae
+                              Experienced in backend development, building
+                              scalable and secure server-side applications using
+                              Node.js, Express, and MongoDB. Skilled in API
+                              design, database management, and integrating
+                              third-party services to enhance application
+                              functionality.
                             </p>
                           </div>
                           <div className="col-xl-3">
                             <p>
-                              <i className="fa fa-check me-2" /> UI/UX Design
+                              <i className="fa fa-check me-2" />
+                              Node.js(adonis js)
                             </p>
                             <p>
-                              <i className="fa fa-check me-2" /> Research
-                            </p>
-                            <p className="mb-0">
-                              <i className="fa fa-check me-2" /> Mobile App
+                              <i className="fa fa-check me-2" /> Mysql
                             </p>
                           </div>
                         </div>
