@@ -1239,7 +1239,7 @@ export default function Home() {
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
                                 <img
-                                  src="/img/blog-3.jpg"
+                                  src="img/blog-3.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
                                   alt="Image"
@@ -1285,7 +1285,7 @@ export default function Home() {
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
                                 <img
-                                  src="/img/blog-4.jpg"
+                                  src="img/blog-4.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
                                   alt="Image"
