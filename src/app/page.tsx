@@ -1120,7 +1120,7 @@ export default function Home() {
         </div>
         {/* Portfolio End */}
         {/* Blog Start */}
-        <div className="container-fluid" id="pigraBlog">
+        {/* <div className="container-fluid" id="pigraBlog">
           <div className="container">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -1334,7 +1334,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Blog End */}
         {/* Testimonial Start */}
         {/* <div className="container-fluid">
