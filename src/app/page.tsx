@@ -1093,7 +1093,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/partymainia.png"
+                              src="img/partymainia.png"
                               className="img-fluid"
                               alt="Image"
                             />
