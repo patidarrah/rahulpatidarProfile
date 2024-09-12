@@ -181,17 +181,17 @@ export default function Home() {
               <div className="col-12 col-lg-9">
                 <div className="about-content h-100 pt-6 ps-6 pb-6">
                   <div className="row g-5">
-                    {/* <div className="col-xl-5">
+                    <div className="col-xl-5">
                       <div
                         className="about-img bg-light p-4 wow fadeInUp"
                         data-wow-delay="0.1s"
-                      > */}
-                    {/* <img
+                      >
+                        <img
                           src="img/about.jpg"
                           className="img-fluid w-100"
                           alt="Image"
-                        /> */}
-                    {/* <div className="sosial-icon">
+                        />
+                        <div className="sosial-icon">
                           <Link
                             className="btn btn-primary btn-sm-square mb-3"
                             href="#"
@@ -216,9 +216,9 @@ export default function Home() {
                           >
                             <i className="fab fa-linkedin-in text-white" />
                           </Link>
-                        </div> */}
-                    {/* </div>
-                    </div> */}
+                        </div>
+                      </div>
+                    </div>
                     <div
                       className="col-xl-7 wow fadeInUp"
                       data-wow-delay="0.3s"
@@ -269,7 +269,11 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <Link href="#" className="btn btn-primary py-2 px-4">
+                      <Link
+                        href="/img/cv.docx"
+                        target="_blank"
+                        className="btn btn-primary py-2 px-4"
+                      >
                         <i className="fas fa-download me-2" />
                         Download My CV
                       </Link>
@@ -394,18 +398,31 @@ export default function Home() {
                         data-wow-delay="0.1s"
                       >
                         <div className="d-flex align-items-center mb-3">
-                          <p className="fs-5 mb-0 me-4">Historian</p>
+                          <p className="fs-5 mb-0 me-4">
+                            Newrise Technosys Pvt. Ltd.
+                          </p>
                           <div>
-                            <span className="fa fa-calendar me-1" /> 2017 - 2019
+                            <span className="fa fa-calendar me-1" />{" "}
+                            2024(Present)
                           </div>
                         </div>
-                        <h4 className="mb-3">Seinor UI/UX Desinger</h4>
+                        <h4 className="mb-3">MERN Stack Developer</h4>
                         <p className="mb-0">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Corrupti, a quasi velit sint atque non saepe
-                          quaerat ducimus, nobis error cupiditate, nisi
-                          repudiandae dignissimos magnam? Dicta ab possimus
-                          tempora nobis.
+                          Applied responsive design principles within MERN stack
+                          projects to ensure consistent and user-friendly
+                          experiences across different devices and screen sizes.
+                          Developed and maintained content management features
+                          in MERN applications, enabling efficient website
+                          administration and real-time content updates. Utilized
+                          performance analysis tools like Google Lighthouse and
+                          WebPageTest to assess and enhance the speed and
+                          efficiency of MERN-based applications. Collaborated on
+                          building pharmacy management systems using the MERN
+                          stack, improving workflows and user interaction
+                          through effective front-end and back-end integration.
+                          Enhanced MERN application performance by refactoring
+                          code, minimizing assets, and optimizing server-side
+                          and client-side processes.
                         </p>
                       </div>
                     </div>
@@ -415,18 +432,23 @@ export default function Home() {
                         data-wow-delay="0.3s"
                       >
                         <div className="d-flex align-items-center mb-3">
-                          <p className="fs-5 mb-0 me-4">Historian</p>
+                          <p className="fs-5 mb-0 me-4">
+                            Newrise Technosys Pvt. Ltd.
+                          </p>
                           <div>
-                            <span className="fa fa-calendar me-1" /> 2017 - 2019
+                            <span className="fa fa-calendar me-1" /> 2022 - 2023
                           </div>
                         </div>
-                        <h4 className="mb-3">UI/UX Designer</h4>
+                        <h4 className="mb-3">Frontend Developer(React Js)</h4>
                         <p className="mb-0">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Corrupti, a quasi velit sint atque non saepe
-                          quaerat ducimus, nobis error cupiditate, nisi
-                          repudiandae dignissimos magnam? Dicta ab possimus
-                          tempora nobis.
+                          A frontend developer specializing in React.js with
+                          expertise in Redux and RTK Query for efficient state
+                          management and API handling. Skilled in integrating
+                          RESTful APIs, WebSockets via Socket.io for real-time
+                          communication, and Axios for seamless HTTP requests.
+                          Experienced in building dynamic, scalable, and
+                          interactive user interfaces, incorporating AI-driven
+                          features to enhance user experience.
                         </p>
                       </div>
                     </div>
@@ -436,18 +458,26 @@ export default function Home() {
                         data-wow-delay="0.5s"
                       >
                         <div className="d-flex align-items-center mb-3">
-                          <p className="fs-5 mb-0 me-4">Historian</p>
+                          <p className="fs-5 mb-0 me-4">
+                            Universal Informatics
+                          </p>
                           <div>
-                            <span className="fa fa-calendar me-1" /> 2017 - 2019
+                            <span className="fa fa-calendar me-1" /> 2022(6
+                            months)
                           </div>
                         </div>
-                        <h4 className="mb-3">Junior Visual Designer</h4>
+                        <h4 className="mb-3">MERN Stack Interships </h4>
                         <p className="mb-0">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Corrupti, a quasi velit sint atque non saepe
-                          quaerat ducimus, nobis error cupiditate, nisi
-                          repudiandae dignissimos magnam? Dicta ab possimus
-                          tempora nobis.
+                          During my internship, I applied responsive design
+                          principles in MERN stack projects, ensuring seamless
+                          user experiences across devices. I developed content
+                          management features for MERN applications, enabling
+                          real-time updates and efficient website
+                          administration. I used tools like Google Lighthouse
+                          and WebPageTest to optimize application performance.
+                          Additionally, I collaborated on building pharmacy
+                          management systems, enhancing workflows through
+                          effective front-end and back-end integration.
                         </p>
                       </div>
                     </div>
@@ -642,7 +672,7 @@ export default function Home() {
                           </h4>
                           <h4 className="display-6">%</h4>
                         </div>
-                        <p className="mb-0">Redux</p>
+                        <p className="mb-0">Bootstrap</p>
                       </div>
                     </div>
                     <div className="col-6 col-md-4 col-lg-4 col-xl-3">
@@ -696,6 +726,40 @@ export default function Home() {
                           <h4 className="display-6">%</h4>
                         </div>
                         <p className="mb-0">Angular core and themes convert</p>
+                      </div>
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-4 col-xl-3">
+                      <div
+                        className="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                      >
+                        <div className="text-primary text-center mb-3">
+                          <span className="fab fa-html5 fa-3x" />
+                        </div>
+                        <div className="counter-counting d-flex justify-content-center">
+                          <h4 className="display-6" data-toggle="counter-up">
+                            80
+                          </h4>
+                          <h4 className="display-6">%</h4>
+                        </div>
+                        <p className="mb-0">MySQL </p>
+                      </div>
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-4 col-xl-3">
+                      <div
+                        className="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                      >
+                        <div className="text-primary text-center mb-3">
+                          <span className="fab fa-html5 fa-3x" />
+                        </div>
+                        <div className="counter-counting d-flex justify-content-center">
+                          <h4 className="display-6" data-toggle="counter-up">
+                            60
+                          </h4>
+                          <h4 className="display-6">%</h4>
+                        </div>
+                        <p className="mb-0">MongoDB </p>
                       </div>
                     </div>
                   </div>
@@ -859,20 +923,23 @@ export default function Home() {
                   >
                     <div className="row g-4 align-items-center">
                       <div className="col-xl-6">
-                        <h4 className="text-body">Web Design</h4>
+                        <h4 className="text-body">
+                          web and backend(point of sale)
+                        </h4>
                         <h1 className="display-6 mb-0">
-                          Software Design for ABC Corporation
+                          React, Next js, NodeJS(adonis js), MySQL,nestAuth,
+                          React-hook-form, React-hook-form-yup,
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
-                            <Image
-                              src="/img/Portfolio-1.jpg"
+                            <img
+                              src="img/portfolio-1.png"
                               className="img-fluid"
                               alt="Image"
-                              width={500}
-                              height={500}
+                              // width={500}
+                              // height={500}
                             />
                           </div>
                         </div>
@@ -880,7 +947,7 @@ export default function Home() {
                       <div className="col-3 col-xl-2">
                         <div className="view-img">
                           <Link
-                            href="img/Portfolio-1.jpg"
+                            href="img/portfolio-1.png"
                             className="btn btn-primary btn-lg-square"
                             data-lightbox="Portfolio-1"
                           >
@@ -896,20 +963,22 @@ export default function Home() {
                   >
                     <div className="row g-4 align-items-center">
                       <div className="col-xl-6">
-                        <h4 className="text-body">Web Development</h4>
+                        <h4 className="text-body">
+                          Web Development(cafe Management systems)
+                        </h4>
                         <h1 className="display-6 mb-0">
-                          Website Development for ABC Corporation
+                          React,redux,Rtk query, react-router-dom,
+                          React-hook-form, React-hook-form-yup, axios,api
+                          integration,
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
-                            <Image
+                            <img
                               src="/img/portfolio-2.jpg"
                               className="img-fluid"
                               alt="Image"
-                              width={500}
-                              height={500}
                             />
                           </div>
                         </div>
@@ -933,20 +1002,57 @@ export default function Home() {
                   >
                     <div className="row g-4 align-items-center">
                       <div className="col-xl-6">
-                        <h4 className="text-body">Photography</h4>
+                        <h4 className="text-body">
+                          Web Developed (Nrt Website dynamic)
+                        </h4>
                         <h1 className="display-6 mb-0">
-                          Security Analysis for ABC Corporation
+                          React,redux,Rtk query, react-router-dom,
+                          React-hook-form, React-hook-form-yup, axios,api
+                          integration,
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
-                            <Image
+                            <img
                               src="/img/portfolio-3.jpg"
                               className="img-fluid"
                               alt="Image"
-                              width={500}
-                              height={500}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-3 col-xl-2">
+                        <div className="view-img">
+                          <Link
+                            href="img/portfolio-3.jpg"
+                            className="btn btn-primary btn-lg-square"
+                            data-lightbox="portfolio-3"
+                          >
+                            <i className="fas fa-plus" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="portfolio-item py-5 wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="row g-4 align-items-center">
+                      <div className="col-xl-6">
+                        <h4 className="text-body">
+                          Web Developed (Partymaniaie App)
+                        </h4>
+                        <h1 className="display-6 mb-0"></h1>
+                      </div>
+                      <div className="col-9 col-xl-4">
+                        <div className="portfolio-img">
+                          <div className="portfolio-img-inner">
+                            <img
+                              src="/img/portfolio-3.jpg"
+                              className="img-fluid"
+                              alt="Image"
                             />
                           </div>
                         </div>
