@@ -976,7 +976,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/cafe.png"
+                              src="img/cafe.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -986,7 +986,7 @@ export default function Home() {
                       <div className="col-3 col-xl-2">
                         <div className="view-img">
                           <Link
-                            href="/img/cafe.png"
+                            href="img/cafe.png"
                             className="btn btn-primary btn-lg-square"
                             data-lightbox="portfolio-2"
                           >
@@ -1015,7 +1015,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/nrtweb.png"
+                              src="img/nrtweb.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -1054,7 +1054,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/contractmanagement.png"
+                              src="img/contractmanagement.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -1146,12 +1146,10 @@ export default function Home() {
                           <div className="col-4">
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
-                                <Image
-                                  src="/img/blog-1.jpg"
+                                <img
+                                  src="img/blog-1.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
-                                  width={100}
-                                  height={100}
                                   alt="Image"
                                 />
                               </Link>
@@ -1194,13 +1192,11 @@ export default function Home() {
                           <div className="col-4">
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
-                                <Image
-                                  src="/img/blog-2.jpg"
+                                <img
+                                  src="img/blog-2.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
                                   alt="Image"
-                                  width={100}
-                                  height={100}
                                 />
                               </Link>
                             </div>
@@ -1242,13 +1238,11 @@ export default function Home() {
                           <div className="col-4">
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
-                                <Image
+                                <img
                                   src="/img/blog-3.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
                                   alt="Image"
-                                  width={100}
-                                  height={100}
                                 />
                               </Link>
                             </div>
@@ -1290,13 +1284,11 @@ export default function Home() {
                           <div className="col-4">
                             <div className="blog-item-img bg-dark h-100">
                               <Link href="#">
-                                <Image
+                                <img
                                   src="/img/blog-4.jpg"
                                   className="img-fluid w-100 h-100"
                                   style={{ objectFit: "cover" }}
                                   alt="Image"
-                                  width={100}
-                                  height={100}
                                 />
                               </Link>
                             </div>
