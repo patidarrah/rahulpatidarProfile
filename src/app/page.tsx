@@ -110,7 +110,7 @@ export default function Home() {
                       <div className="d-flex align-items-center mb-2">
                         <i className="fas fa-map-marker-alt text-primary me-3" />
                         <p className="text-dark mb-0">
-                          6/32 Maninager ujjain madhya pradesh
+                          BavadiyaKala Bhopal, Madhya Pradesh
                         </p>
                       </div>
                       <div className="d-flex align-items-center mb-2">
@@ -245,7 +245,7 @@ export default function Home() {
                             <strong className="fw-bold text-dark">
                               Address :
                             </strong>{" "}
-                            123 6/32 Maninager ujjain madhya pradesh
+                            BavadiyaKala Bhopal, Madhya Pradesh
                           </p>
                         </div>
                         <div className="col-6">
@@ -976,7 +976,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/portfolio-2.jpg"
+                              src="/img/cafe.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -986,7 +986,7 @@ export default function Home() {
                       <div className="col-3 col-xl-2">
                         <div className="view-img">
                           <Link
-                            href="img/portfolio-2.jpg"
+                            href="/img/cafe.png"
                             className="btn btn-primary btn-lg-square"
                             data-lightbox="portfolio-2"
                           >
@@ -1003,7 +1003,7 @@ export default function Home() {
                     <div className="row g-4 align-items-center">
                       <div className="col-xl-6">
                         <h4 className="text-body">
-                          Web Developed (Nrt Website dynamic)
+                          Web Development (Nrt Website dynamic)
                         </h4>
                         <h1 className="display-6 mb-0">
                           React,redux,Rtk query, react-router-dom,
@@ -1015,7 +1015,7 @@ export default function Home() {
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/portfolio-3.jpg"
+                              src="/img/nrtweb.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -1025,7 +1025,7 @@ export default function Home() {
                       <div className="col-3 col-xl-2">
                         <div className="view-img">
                           <Link
-                            href="img/portfolio-3.jpg"
+                            href="img/nrtweb.png"
                             className="btn btn-primary btn-lg-square"
                             data-lightbox="portfolio-3"
                           >
@@ -1042,15 +1042,19 @@ export default function Home() {
                     <div className="row g-4 align-items-center">
                       <div className="col-xl-6">
                         <h4 className="text-body">
-                          Web Developed (Partymaniaie App)
+                          Web Development (contract Management CMS (KPMG))
                         </h4>
-                        <h1 className="display-6 mb-0"></h1>
+                        <h1 className="display-6 mb-0">
+                          React, react-router-dom, next js, @casl, socket io
+                          React-hook-form, React-hook-form-yup, axios,api
+                          integration,
+                        </h1>
                       </div>
                       <div className="col-9 col-xl-4">
                         <div className="portfolio-img">
                           <div className="portfolio-img-inner">
                             <img
-                              src="/img/portfolio-3.jpg"
+                              src="/img/contractmanagement.png"
                               className="img-fluid"
                               alt="Image"
                             />
@@ -1060,7 +1064,46 @@ export default function Home() {
                       <div className="col-3 col-xl-2">
                         <div className="view-img">
                           <Link
-                            href="img/portfolio-3.jpg"
+                            href="img/contractmanagement.png"
+                            className="btn btn-primary btn-lg-square"
+                            data-lightbox="portfolio-3"
+                          >
+                            <i className="fas fa-plus" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="portfolio-item py-5 wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="row g-4 align-items-center">
+                      <div className="col-xl-6">
+                        <h4 className="text-body">
+                          Web Development (Partymaniaie App)
+                        </h4>
+                        <h1 className="display-6 mb-0">
+                          React,redux,Rtk query, react-router-dom,
+                          React-hook-form, React-hook-form-yup, axios,api
+                          integration,
+                        </h1>
+                      </div>
+                      <div className="col-9 col-xl-4">
+                        <div className="portfolio-img">
+                          <div className="portfolio-img-inner">
+                            <img
+                              src="/img/partymainia.png"
+                              className="img-fluid"
+                              alt="Image"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-3 col-xl-2">
+                        <div className="view-img">
+                          <Link
+                            href="img/partymainia.png"
                             className="btn btn-primary btn-lg-square"
                             data-lightbox="portfolio-3"
                           >
@@ -1494,7 +1537,7 @@ export default function Home() {
                         className="col-xl-5 wow fadeInUp"
                         data-wow-delay="0.1s"
                       >
-                        <p className="mb-4">
+                        {/* <p className="mb-4">
                           The contact form is currently inactive. Get a
                           functional and working contact form with Ajax &amp;
                           PHP in a few minutes. Just copy and paste the files,
@@ -1506,14 +1549,17 @@ export default function Home() {
                             Download Now
                           </Link>
                           .
-                        </p>
+                        </p> */}
                         <div className="d-flex mb-4">
                           <div className="btn-xl-square bg-primary text-white me-3">
                             <i className="fas fa-map-marker-alt" />
                           </div>
                           <div>
                             <h4>Address</h4>
-                            <p className="mb-0">123 Street New York.USA</p>
+                            <p className="mb-0">
+                              {" "}
+                              BavadiyaKala Bhopal, Madhya Pradesh
+                            </p>
                           </div>
                         </div>
                         <div className="d-flex mb-4">
@@ -1522,7 +1568,7 @@ export default function Home() {
                           </div>
                           <div>
                             <h4>Mail Us</h4>
-                            <p className="mb-0">info@example.com</p>
+                            <p className="mb-0">rahulpatidarsr@gmail.com</p>
                           </div>
                         </div>
                         <div className="d-flex">
@@ -1530,8 +1576,8 @@ export default function Home() {
                             <i className="fa fa-phone-alt" />
                           </div>
                           <div>
-                            <h4>Telephone</h4>
-                            <p className="mb-0">(+012) 3456 7890</p>
+                            <h4>Mobile Number</h4>
+                            <p className="mb-0">(+91) 7805916540</p>
                           </div>
                         </div>
                       </div>
@@ -1626,7 +1672,7 @@ export default function Home() {
                           <iframe
                             className="rounded w-100"
                             style={{ height: 400 }}
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228235.2294990527!2d77.35073833792585!3d23.241999331351586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4265aa9cae97%3A0x678653c6bb6718b2!2sBhopal%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1694260225635!5m2!1sen!2sus"
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                           />
@@ -1689,17 +1735,11 @@ export default function Home() {
                       {/*/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, *** /*/}
                       {/*/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". *** /*/}
                       Designed By
-                      <Link
-                        className="border-bottom text-white"
-                        href="https://htmlcodex.com"
-                      >
+                      <Link className="border-bottom text-white" href="#">
                         HTML Codex
                       </Link>
                       Distributed By
-                      <Link
-                        className="border-bottom text-white"
-                        href="https://themewagon.com"
-                      >
+                      <Link className="border-bottom text-white" href="#">
                         ThemeWagon
                       </Link>
                     </div>
