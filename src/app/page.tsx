@@ -1095,7 +1095,7 @@ export default function Home() {
                             <img
                               src="img/partymainia.png"
                               className="img-fluid"
-                              alt="Image"
+                              alt="Image1"
                             />
                           </div>
                         </div>
