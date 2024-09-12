@@ -323,7 +323,7 @@ export default function Home() {
                         </h4>
                       </div>
                     </div>
-                    <div className="col-12">
+                    {/* <div className="col-12">
                       <div
                         className="education-item rounded p-4 h-100 wow fadeInUp"
                         data-wow-delay="0.3s"
@@ -343,8 +343,8 @@ export default function Home() {
                           tempora nobis.
                         </p>
                       </div>
-                    </div>
-                    <div className="col-12">
+                    </div> */}
+                    {/* <div className="col-12">
                       <div
                         className="education-item rounded p-4 h-100 wow fadeInUp"
                         data-wow-delay="0.5s"
@@ -364,7 +364,7 @@ export default function Home() {
                           tempora nobis.
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
