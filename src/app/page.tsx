@@ -937,7 +937,7 @@ export default function Home() {
                         </h4>
                         <h1 className="display-6 mb-0">
                           React, Next js, NodeJS(adonis js), MySQL,nestAuth,
-                          React-hook-form, React-hook-form-yup,
+                          React-hook-form, React-hook-form-yup, Matrial Ui
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
@@ -978,7 +978,7 @@ export default function Home() {
                         <h1 className="display-6 mb-0">
                           React,redux,Rtk query, react-router-dom,
                           React-hook-form, React-hook-form-yup, axios,api
-                          integration,
+                          integration, Matrial Ui
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
@@ -1056,7 +1056,7 @@ export default function Home() {
                         <h1 className="display-6 mb-0">
                           React, react-router-dom, next js, @casl, socket io
                           React-hook-form, React-hook-form-yup, axios,api
-                          integration,
+                          integration, Matrial Ui, Taiwind CSS
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
@@ -1095,7 +1095,7 @@ export default function Home() {
                         <h1 className="display-6 mb-0">
                           React,redux,Rtk query, react-router-dom,
                           React-hook-form, React-hook-form-yup, axios,api
-                          integration,
+                          integration, Taiwind CSS, Matrial Ui
                         </h1>
                       </div>
                       <div className="col-9 col-xl-4">
