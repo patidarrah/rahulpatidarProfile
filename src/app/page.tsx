@@ -263,7 +263,7 @@ export default function Home() {
                           </p>
                           <p className="mb-0">
                             <strong className="fw-bold text-dark">
-                              FullType :
+                              FullTime :
                             </strong>
                             Available
                           </p>
