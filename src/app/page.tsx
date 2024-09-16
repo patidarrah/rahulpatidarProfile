@@ -276,7 +276,7 @@ export default function Home() {
                         </div>
                       </div>
                       <Link
-                        href="cv.pdf"
+                        href="/cv.pdf"
                         target="_blank"
                         className="btn btn-primary py-2 px-4"
                       >
