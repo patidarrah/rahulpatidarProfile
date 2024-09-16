@@ -263,6 +263,12 @@ export default function Home() {
                           </p>
                           <p className="mb-0">
                             <strong className="fw-bold text-dark">
+                              FullType :
+                            </strong>
+                            Available
+                          </p>
+                          <p className="mb-0">
+                            <strong className="fw-bold text-dark">
                               Freelancer :
                             </strong>
                             Available
@@ -270,7 +276,7 @@ export default function Home() {
                         </div>
                       </div>
                       <Link
-                        href="#"
+                        href="cv.pdf"
                         target="_blank"
                         className="btn btn-primary py-2 px-4"
                       >
